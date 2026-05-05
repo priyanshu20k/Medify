@@ -38,4 +38,8 @@ This project is MIT licensed.
 
 Acknowledgements
 Assignment provided by Crio
+<<<<<<< HEAD
 Design inspiration from provided Figma file
+=======
+Design inspiration from provided Figma file
+>>>>>>> 2a139f7 (Final commit of Medify project)
