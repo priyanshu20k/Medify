@@ -14,7 +14,7 @@ Axios (for API requests)
 LocalStorage (for data persistence)
 Setup and Installation
 Clone the repository:
-git clone https://github.com/priyanshu20k/Medify.git
+git clone https://github.com/priyanshu20k/medify.git
 Navigate to the project directory:
 cd medify
 Install dependencies:
