@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+Features
+Landing Page: Includes a navigation bar, search section for state and city selection, and other sections as per the Figma design.
+Search Results: Displays available medical centers in the selected location.
+Booking Interface: Allows users to select a medical center and book appointments up to one week in advance.
+My Bookings Page: Shows all user bookings with relevant details.
+Responsive Design: Fully responsive and adheres to the provided Figma design standards.
+Technologies Used
+React
+Material-UI
+Swiper (for carousels)
+React Router
+Axios (for API requests)
+LocalStorage (for data persistence)
+Setup and Installation
+Clone the repository:
+git clone https://github.com/milindkusahu/medify.git
+Navigate to the project directory:
+cd medify
+Install dependencies:
+npm install
+Run the development server:
+npm run dev
+API Integration
+The application integrates with the following backend endpoints:
 
-This contains everything you need to run your app locally.
+List of states: https://meddata-backend.onrender.com/states
+Cities in a state: https://meddata-backend.onrender.com/cities/:state
+Medical centers: https://meddata-backend.onrender.com/data?state=<state-name>&city=<city-name>
+Deployment
+This project is deployed on Vercel. The live version can be accessed here.
 
-View your app in AI Studio: https://ai.studio/apps/57161779-fd89-4389-9155-1b6d2a0d46b6
+Contributing
+Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
 
-## Run Locally
+License
+This project is MIT licensed.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Acknowledgements
+Assignment provided by Crio
+Design inspiration from provided Figma file
